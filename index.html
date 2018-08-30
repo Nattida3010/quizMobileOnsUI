@@ -17,7 +17,7 @@
         <ons-toolbar>
             <div class="left">
                 <ons-toolbar-button icon="fa-shopping-bag"></ons-toolbar-button>
-                
+
             </div>
 
             <div class="center">HOME</div>
@@ -50,219 +50,119 @@
                 <ons-carousel-item style="background : url('img/3.jpg') no-repeat center; background-size: contain;">
                 </ons-carousel-item>
             </ons-carousel>
-            <div>
-                    <div>
-                            <h4 style="padding-top: 10px;">Genre &amp; Mood</h4>
-                            <ons-row class="category">
-                              <ons-col modifier="nodivider" id="Category_1" onclick="openPlaylist(this.id)">
-                                <div class="category_wrapper">
-                                  <figure class="category_thumbnail">
-                                    <ons-icon icon="fa-users"></ons-icon>
-                                    <div class="category_title" id="Category_1_name">Party</div>
-                                  </figure>
-                                </div>
-                              </ons-col>
-                              <ons-col modifier="nodivider" id="Category_2" onclick="openPlaylist(this.id)">
-                                <div class="category_wrapper">
-                                  <figure class="category_thumbnail">
-                                    <ons-icon icon="fa-headphones"></ons-icon>
-                                    <div class="category_title" id="Category_2_name">Relax</div>
-                                  </figure>
-                                </div>
-                              </ons-col>
-                              <ons-col modifier="nodivider" id="Category_2" onclick="openPlaylist(this.id)">
-                                    <div class="category_wrapper">
-                                      <figure class="category_thumbnail">
-                                        <ons-icon icon="fa-headphones"></ons-icon>
-                                        <div class="category_title" id="Category_2_name">Relax</div>
-                                      </figure>
-                                    </div>
-                                  </ons-col>
-                            </ons-row>
-                            <ons-row class="category">  
-                              <ons-col modifier="nodivider" id="Category_3" onclick="openPlaylist(this.id)">
-                                <div class="category_wrapper">
-                                  <figure class="category_thumbnail">
-                                    <ons-icon icon="ion-music-note"></ons-icon>
-                                    <div class="category_title" id="Category_3_name">Classical</div>
-                                  </figure>
-                                </div>
-                              </ons-col>
-                              <ons-col modifier="nodivider" id="Category_4" onclick="openPlaylist(this.id)">
-                                <div class="category_wrapper">
-                                  <figure class="category_thumbnail">
-                                    <ons-icon icon="ion-android-microphone"></ons-icon>
-                                    <div class="category_title" id="Category_4_name">Pop</div>
-                                  </figure>
-                                </div>
-                              </ons-col>
-                              <ons-col modifier="nodivider" id="Category_2" onclick="openPlaylist(this.id)">
-                                    <div class="category_wrapper">
-                                      <figure class="category_thumbnail">
-                                        <ons-icon icon="fa-headphones"></ons-icon>
-                                        <div class="category_title" id="Category_2_name">Relax</div>
-                                      </figure>
-                                    </div>
-                                  </ons-col>
-                            </ons-row>
-                            <ons-row class="category">    
-                              <ons-col modifier="nodivider" id="Category_5" onclick="openPlaylist(this.id)">
-                                <div class="category_wrapper">
-                                  <figure class="category_thumbnail">
-                                    <ons-icon icon="fa-smile-o"></ons-icon>
-                                    <div class="category_title" id="Category_5_name">Happy</div>
-                                  </figure>
-                                </div>
-                              </ons-col>
-                              <ons-col modifier="nodivider" id="Category_6" onclick="openPlaylist(this.id)">
-                                <div class="category_wrapper">
-                                  <figure class="category_thumbnail">
-                                    <ons-icon icon="fa-bed"></ons-icon>
-                                    <div class="category_title" id="Category_6_name">Sleepy</div>
-                                  </figure>
-                                </div>
-                                
-                              </ons-col>
-                              <ons-col modifier="nodivider" id="Category_6" onclick="openPlaylist(this.id)">
-                                    <div class="category_wrapper">
-                                      <figure class="category_thumbnail">
-                                        <ons-icon icon="fa-bed"></ons-icon>
-                                        <div class="category_title" id="Category_6_name">Sleepy</div>
-                                      </figure>
-                                    </div>
-                                    
-                                  </ons-col>
-                            </ons-row>
-                          </div>
-                        </div>
-                    
-                        <style type="text/css">
-                          .recomended_playlist {
-                            padding-left: 10px;
-                          }
-                    
-                          .recomended_playlist_title {
-                            font-size: 12px;
-                            font-weight: bold;
-                          }
-                    
-                          .thumbnail {
-                            width: 120px;
-                            height: 120px;
-                            display: table;
-                            background-color: rgba(0, 0, 0, 0.42);
-                          }
-                    
-                          .thumbnail ons-icon {
-                            font-size: 70px;
-                            color: rgba(190, 190, 190, 0.74);
-                            display: table-cell;
-                            vertical-align: middle !important;
-                          }
-                    
-                          .recomended_list {
-                            height: 150px;
-                          }
-                    
-                          .recomended {
-                            background: linear-gradient(rgb(208, 247, 211),#151715);
-                            padding-top: 44px;
-                          }
-                    
-                          .menu_list {
-                            background: transparent;
-                          }
-                    
-                          .menu_item {
-                            color: white;
-                            font-size: 12px;
-                          }
-                    
-                          .menu_item ons-icon {
-                            margin-right: 10px;
-                            color: gray;
-                            font-size: 16px;
-                          }
-                    
-                          .category {
-                            margin: 20px 0px;
-                            padding: 0px 30px;
-                          }
-                    
-                          .category_wrapper {
-                            max-width: 120px;
-                            width: 90%;
-                            margin: auto;
-                            background-color: rgba(128, 128, 128, 0.62);
-                          }
-                    
-                          .category_wrapper ons-icon {
-                            font-size: 55px;
-                            padding-top: 10px;
-                            line-height: 0.75em;
-                          }
-                    
-                          .category_thumbnail {
-                            display: inline-block;
-                            margin: 16px 0px;
-                          }
-                    
-                          .category_title {
-                            font-size: 12px;
-                            font-weight: bold;
-                            padding-top: 10px;
-                          }
-                        </style>
-                    
-                      </ons-page>
+            <ons-row style="height:120px" vatical-align="center">
+                <ons-col style="background:#fd9191;">
+                    <p style="text-align: center;margin: 10px;">
+                        <ons-icon size="60px" icon="md-toys"></ons-icon>
+                    </p>
+                    <p style="text-align: center;margin: 10px;">TOY</p>
+                </ons-col>
+                <ons-col style="background:thistle;">
+                    <p style="text-align: center;margin: 10px;">
+                        <ons-icon size="60px" icon="md-face"></ons-icon>
+                    </p>
+                    <p style="text-align: center;margin: 10px;">BEAUTY</p>
+                </ons-col>
+                <ons-col style="background:#fac9bb;">
+                    <p style="text-align: center;margin: 10px;">
+                        <ons-icon size="60px" icon="md-headset"></ons-icon>
+                    </p>
+                    <p style="text-align: center;margin: 10px;">RELAX</p>
+                </ons-col>
+            </ons-row>
+            <br>
+            <ons-row style="height:120px" vatical-align="center">
+                <ons-col style="background:paleturquoise;">
+                    <p style="text-align: center;margin: 10px;">
+                        <ons-icon size="60px" icon="md-laptop"></ons-icon>
+                    </p>
+                    <p style="text-align: center;margin: 10px;">IT</p>
+                </ons-col>
+                <ons-col style="background:#c2a687;">
+                    <p style="text-align: center;margin: 10px;">
+                        <ons-icon size="60px" icon="md-phone"></ons-icon>
+                    </p>
+                    <p style="text-align: center;margin: 10px;">PHONE</p>
+                </ons-col>
+                <ons-col style="background:#96e5e6;">
+                    <p style="text-align: center;margin: 10px;">
+                        <ons-icon size="60px" icon="md-cake"></ons-icon>
+                    </p>
+                    <p style="text-align: center;margin: 10px;">FOOD</p>
+                </ons-col>
+            </ons-row>
+            <br>
+            <ons-row style="height:120px" vatical-align="center">
+                <ons-col style="background:#bdc9e6;">
+                    <p style="text-align: center;margin: 10px;">
+                        <ons-icon size="60px" icon="md-home"></ons-icon>
+                    </p>
+                    <p style="text-align: center;margin: 10px;">HOME</p>
+                </ons-col>
+                <ons-col style="background:#4ddeb3;">
+                    <p style="text-align: center;margin: 10px;">
+                        <ons-icon size="60px" icon="fa-cog"></ons-icon>
+                    </p>
+                    <p style="text-align: center;margin: 10px;">DIY</p>
+                </ons-col>
+                <ons-col style="background:#f46262;">
+                    <p style="text-align: center;margin: 10px;">
+                        <ons-icon size="60px" icon="fa-car"></ons-icon>
+                    </p>
+                    <p style="text-align: center;margin: 10px;">TRAVEL</p>
+                </ons-col>
+            </ons-row>
+
+        </ons-page>
 
     </template>
 
     <template id="tab2.html">
         <ons-page id="Tab2">
-          
-                    <ons-list-header>SHOPING CART</ons-list-header>
-                    <ons-list-item>
-                        <div class="left">
-                            <img class="list-item__thumbnail" src="img/item1.jpg">
-                        </div>
-                        <div class="center">
-                            <span class="list-item__title">Apple Watch Series3 GPS42mm Grey</span>
-                            <span class="list-item__subtitle">฿126,50.00</span><div class="right">
-                                    <ons-toolbar-button icon="md-delete"></ons-toolbar-button>
-                                  </div>  
-    
-                        </div>
+
+            <ons-list-header>SHOPING CART</ons-list-header>
+            <ons-list-item>
+                <div class="left">
+                    <img class="list-item__thumbnail" src="img/item1.jpg">
+                </div>
+                <div class="center">
+                    <span class="list-item__title">Apple Watch Series3 GPS42mm Grey</span>
+                    <span class="list-item__subtitle">฿126,50.00</span>
+                    <div class="right">
+                        <ons-toolbar-button icon="md-delete"></ons-toolbar-button>
+                    </div>
+
+                </div>
 
 
-                        
-                    </ons-list-item>
-                    <ons-list-item>
-                        <div class="left">
-                            <img class="list-item__thumbnail" src="img/item2.jpg">
-                        </div>
-                        <div class="center">
-                            <span class="list-item__title">MICROLAB SPEAKER2.0</span>
-                            <span class="list-item__subtitle">฿1,570.00</span>
-                            <div class="right">
-                                    <ons-toolbar-button icon="md-delete"></ons-toolbar-button>
-                                  </div>  
-                        </div>
-                    </ons-list-item>
-                    <ons-list-item>
-                            <div class="left">
-                              <img class="list-item__thumbnail" src="img/item3.jpg">
-                            </div>
-                            <div class="center">
-                              <span class="list-item__title">Nike Air Max</span>
-                              <span class="list-item__subtitle">฿2,990.00</span>
-                              <div class="right">
-                                    <ons-toolbar-button icon="md-delete"></ons-toolbar-button>
-                                  </div>  
-                            </div>
-                </ons-list-item>
-                </ons-list>
-            </ons-page>
+
+            </ons-list-item>
+            <ons-list-item>
+                <div class="left">
+                    <img class="list-item__thumbnail" src="img/item2.jpg">
+                </div>
+                <div class="center">
+                    <span class="list-item__title">MICROLAB SPEAKER2.0</span>
+                    <span class="list-item__subtitle">฿1,570.00</span>
+                    <div class="right">
+                        <ons-toolbar-button icon="md-delete"></ons-toolbar-button>
+                    </div>
+                </div>
+            </ons-list-item>
+            <ons-list-item>
+                <div class="left">
+                    <img class="list-item__thumbnail" src="img/item3.jpg">
+                </div>
+                <div class="center">
+                    <span class="list-item__title">Nike Air Max</span>
+                    <span class="list-item__subtitle">฿2,990.00</span>
+                    <div class="right">
+                        <ons-toolbar-button icon="md-delete"></ons-toolbar-button>
+                    </div>
+                </div>
+            </ons-list-item>
+            </ons-list>
+        </ons-page>
         </ons-page>
 
     </template>
