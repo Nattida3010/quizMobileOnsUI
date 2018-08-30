@@ -108,10 +108,7 @@
             </div>
             </div>
             <ons-toast>
-                    <div onclick="openPlayScreen()"><ons-icon size="20px" style="margin-right: 10px" icon="fa-angle-up"></ons-icon> Unknown Artist - Track 01 </div>
-                    <button><ons-icon id="play_icon" size="20px" style="color: white;" icon="fa-play-circle-o" onclick="play_toggle(this.id)"></ons-icon></button>
-                  </ons-toast>
-              
+                  
                   <style type="text/css">
                     .playlist_content {
                       padding-top: 44px;
@@ -234,7 +231,49 @@
 
     <template id="tab2.html">
         <ons-page id="Tab2">
-            <p>SHOPPING CART</p>
+          
+                    <ons-list-header>SHOPING CART</ons-list-header>
+                    <ons-list-item>
+                        <div class="left">
+                            <img class="list-item__thumbnail" src="img/item1.jpg">
+                        </div>
+                        <div class="center">
+                            <span class="list-item__title">Apple Watch Series3 GPS42mm Grey</span>
+                            <span class="list-item__subtitle">฿126,50.00</span><div class="right">
+                                    <ons-toolbar-button icon="md-delete"></ons-toolbar-button>
+                                  </div>  
+    
+                        </div>
+
+
+                        
+                    </ons-list-item>
+                    <ons-list-item>
+                        <div class="left">
+                            <img class="list-item__thumbnail" src="img/item2.jpg">
+                        </div>
+                        <div class="center">
+                            <span class="list-item__title">MICROLAB SPEAKER2.0</span>
+                            <span class="list-item__subtitle">฿1,570.00</span>
+                            <div class="right">
+                                    <ons-toolbar-button icon="md-delete"></ons-toolbar-button>
+                                  </div>  
+                        </div>
+                    </ons-list-item>
+                    <ons-list-item>
+                            <div class="left">
+                              <img class="list-item__thumbnail" src="img/item3.jpg">
+                            </div>
+                            <div class="center">
+                              <span class="list-item__title">Nike Air Max</span>
+                              <span class="list-item__subtitle">฿2,990.00</span>
+                              <div class="right">
+                                    <ons-toolbar-button icon="md-delete"></ons-toolbar-button>
+                                  </div>  
+                            </div>
+                </ons-list-item>
+                </ons-list>
+            </ons-page>
         </ons-page>
 
     </template>
